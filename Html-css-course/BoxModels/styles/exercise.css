@@ -1,0 +1,101 @@
+.num-1,
+        .num-2,
+        .num-3,
+        .num-4,
+        .num-5 {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .back-btn {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .next-btn {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .strch-btn {
+            margin-top: 20px;
+            background-color: rgb(50, 172, 50);
+            color: white;
+            font-size: 18px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            cursor: pointer;
+            transition: font-size 0.5s,
+                padding-top 0.5s,
+                padding-bottom 0.5s,
+                padding-right 0.5s,
+                padding-left 0.5s;
+        }
+
+        .strch-btn:hover {
+            font-size: 27px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 45px;
+            padding-left: 45px;
+        }
+
+        .shadow-btn {
+            margin-top: 20px;
+            background-color: rgb(50, 172, 50);
+            color: white;
+            font-size: 18px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            transition: margin-top 0.1s,
+                margin-left 0.1s,
+                box-shadow 0.1s;
+        }
+
+        .shadow-btn:active {
+            margin-top: 22px;
+            margin-left: 2px;
+            box-shadow: none;
+        }
+
+        .container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-one,
+        .btn-two,
+        .btn-three {
+            background-color: rgb(50, 172, 50);
+            color: white;
+            font-size: 18px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            cursor: pointer;
+            margin: 0 15px;
+            transition: padding 0.3s ease;
+            /* Smooth transition */
+        }
+
+        .btn-one:hover,
+        .btn-two:hover,
+        .btn-three:hover {
+            padding-left: 35px;
+            padding-right: 35px;
+        }

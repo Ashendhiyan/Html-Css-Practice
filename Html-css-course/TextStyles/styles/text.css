@@ -1,0 +1,52 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 20px;
+    width: 330px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+.job-text {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.experience-text {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: gray;
+    font-size: 15px;
+    width: 350px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+
+.website-text {
+    /* margin-bottom: 50px; */
+    background-color: rgb(219, 16, 16);
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    width: 330px;
+}
+
+.visit-link {
+    cursor: pointer;
+}
+
+.visit-link:hover {
+    text-decoration: underline;
+}

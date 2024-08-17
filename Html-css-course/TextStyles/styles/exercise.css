@@ -1,0 +1,132 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.end {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sub-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(99, 96, 96);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    margin-top: 0;
+}
+
+.start-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(21, 119, 21);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+}
+
+.shopping-sub-header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    font-size: 17px;
+}
+
+.more {
+    color: rgb(22, 121, 235);
+    margin-left: 200px;
+}
+
+/* exercise */
+
+.container {
+    text-align: center;
+}
+
+.now-text {
+    color: rgb(204, 133, 0);
+    margin-bottom: 12px;
+}
+
+.product-name {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.features {
+    margin-top: 0;
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.price {
+    margin-top: 0;
+    font-size: 19px;
+}
+
+.buy-btn {
+    background-color: rgb(56, 53, 248);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.usd {
+    color: rgb(156, 156, 156);
+    font-size: 30px;
+}
+
+.today-rate {
+    color: rgb(22, 122, 22);
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.after-hours {
+    margin-top: 0;
+    color: rgb(156, 156, 156);
+    font-size: 30px;
+}
+
+.down-rate {
+    color: rgb(199, 21, 21);
+}
