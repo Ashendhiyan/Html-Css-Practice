@@ -179,28 +179,6 @@ button {
     /* width: 300px; */
 }
 
-/* .f-name,
-.l-name,
-.sign-email{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 17px;
-    border-width: 1px;
-    border-radius: 10px;
-}
-
-.sign-email{
-    display: block;
-    width: 95%;
-    margin-top: 10px;
-}
-
-.btn-signUp{
-    background: red;
-    display: block;
-    cursor: pointer;
-} */
-
 .Sign-up.container {
     display: flex;
     flex-direction: column;
@@ -246,4 +224,64 @@ button {
 
 .btn-signUp:hover {
     background-color: #0056b3;
+}
+
+/* Uber request-a-ride form */
+.Uber-request.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.pickup, .destination {
+    display: block;
+    width: 130%;
+    margin-top: 6px;
+    padding: 12px 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between buttons */
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+/* Styling the Request Now button */
+.btn-request {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 27px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling the Schedule for Later button */
+.btn-schedule {
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+    padding: 10px 27px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add hover effects */
+.btn-request:hover {
+    background-color: #333;
+}
+
+.btn-schedule:hover {
+    background-color: #ddd;
 }
