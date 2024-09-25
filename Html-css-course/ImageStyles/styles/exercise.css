@@ -169,3 +169,81 @@ button {
     width: 100px;
     display: block;
 }
+
+/* Sign up form */
+
+.input-fields{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    /* width: 300px; */
+}
+
+/* .f-name,
+.l-name,
+.sign-email{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 17px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.sign-email{
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.btn-signUp{
+    background: red;
+    display: block;
+    cursor: pointer;
+} */
+
+.Sign-up.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* Input fields styling */
+.f-name, .l-name {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    padding: 12px 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.l-name {
+    margin-right: 0;
+}
+
+.sign-email {
+    display: block;
+    width: 90%;
+    padding: 12px 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.btn-signUp {
+    width: 31%;
+    padding: 12px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn-signUp:hover {
+    background-color: #0056b3;
+}
