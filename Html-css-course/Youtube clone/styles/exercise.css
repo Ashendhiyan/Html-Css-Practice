@@ -1,0 +1,145 @@
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: green;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.container{
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.container1{
+    height: 145px;
+    width: 500px;
+    background-color: rgb(56, 55, 55);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 17px;
+}
+
+.paragraph{
+    color: gray;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 430px;
+}
+
+.tweet-container {
+    margin: 25px 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    width: 400px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+
+
+.input-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.input3 {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tweet-btn {
+    background-color: rgb(41, 99, 223);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tweet-container input::placeholder {
+    color: #aaa;
+}
+
+.fb-design{
+    height: 360px;
+    width: 180px;
+    background-color: white;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.profile-picture{
+    height: 230px;
+    width: 180px;
+}
+
+.content{
+    margin-left: 10px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+.friends{
+    color: gray;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.btn-add{
+    background-color: rgb(41, 99, 223);
+    color: white;
+    padding: 7px 17px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.design-container{
+    display: inline-block;
+    height: 375px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    margin-left: 100px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
