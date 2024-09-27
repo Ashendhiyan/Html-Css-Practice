@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Youtube Clone</title>
-        <style>
-            .thumbnail{
-                width: 400px;
-                display: block;
-            }
-        </style>
-    </head>
-    <body>
-        <input type="text" placeholder="Search">
-        <img class="thumbnail", src="thumbnails/hqdefault.jpg" alt="">
 
-        <p>
+<head>
+    <title>Youtube Clone</title>
+    <style>
+        .thumbnail {
+            width: 400px;
+            display: block;
+        }
+
+        .search-bar{
+            display: block;
+        }
+
+        .video-title{
+            width: 400px;
+        }
+
+        .video-preview{
+            width: 400px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+    <div class="video-preview">
+        <img class="thumbnail" , src="thumbnails/hqdefault.jpg" alt="">
+
+        <p class="video-title">
             Kiyaapan - Anushka Udana Ft. Chamath & Yasho
         </p>
 
@@ -24,5 +42,22 @@
         <p>
             2.9M views 2 months ago
         </p>
-    </body>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnail" , src="thumbnails/hq720.webp" alt="">
+
+        <p class="video-title">
+            Build and Deploy a Portfolio Website Using Next JS, Tailwind CSS & Framer Motion
+        </p>
+
+        <p>
+            Cristian Mihai
+        </p>
+
+        <p>
+            297K views 4 months ago
+        </p>
+    </div>
+</body>
+
 </html>
